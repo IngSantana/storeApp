@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { HttpClientModule} from '@angular/common/http';
 import { CartComponent } from './shared/components/cart/cart.component';
+import { HeroSliderComponent } from './shared/components/hero/hero-slider/hero-slider.component';
 
 
 @NgModule({
@@ -17,6 +18,8 @@ import { CartComponent } from './shared/components/cart/cart.component';
     AppComponent,
     HeaderComponent,
     CartComponent,
+    HeroSliderComponent,
+    
 
   ],
   imports: [
